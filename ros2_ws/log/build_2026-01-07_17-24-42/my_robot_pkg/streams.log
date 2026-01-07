@@ -1,0 +1,63 @@
+[0.026s] Invoking command in '/home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/src/my_robot_pkg -DCMAKE_INSTALL_PREFIX=/home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg
+[0.752s] -- The C compiler identification is GNU 13.3.0
+[1.298s] -- The CXX compiler identification is GNU 13.3.0
+[1.381s] -- Detecting C compiler ABI info
+[1.735s] -- Detecting C compiler ABI info - done
+[1.760s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.764s] -- Detecting C compile features
+[1.765s] -- Detecting C compile features - done
+[1.806s] -- Detecting CXX compiler ABI info
+[2.019s] -- Detecting CXX compiler ABI info - done
+[2.083s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.083s] -- Detecting CXX compile features
+[2.083s] -- Detecting CXX compile features - done
+[2.124s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.396s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.710s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.911s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.991s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.060s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.393s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.405s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.708s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.742s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.782s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.115s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[4.311s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.755s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.757s] -- Configured cppcheck include dirs: 
+[4.757s] -- Configured cppcheck exclude dirs and/or files: 
+[4.760s] -- Added test 'lint_cmake' to check CMake code style
+[4.763s] -- Added test 'uncrustify' to check C / C++ code style
+[4.763s] -- Configured uncrustify additional arguments: 
+[4.766s] -- Added test 'xmllint' to check XML markup files
+[4.777s] -- Configuring done (4.7s)
+[4.796s] -- Generating done (0.0s)
+[4.807s] -- Build files have been written to: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/build/my_robot_pkg
+[4.824s] Invoked command in '/home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/src/my_robot_pkg -DCMAKE_INSTALL_PREFIX=/home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg
+[4.825s] Invoking command in '/home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/build/my_robot_pkg -- -j10 -l10
+[5.045s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_listener.dir/src/lidar_listener.cpp.o[0m
+[25.422s] [100%] [32m[1mLinking CXX executable lidar_listener[0m
+[25.873s] [100%] Built target lidar_listener
+[25.934s] Invoked command in '/home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/build/my_robot_pkg -- -j10 -l10
+[25.965s] Invoking command in '/home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/build/my_robot_pkg
+[25.982s] -- Install configuration: ""
+[25.982s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/lib/my_robot_pkg/lidar_listener
+[25.982s] -- Set non-toolchain portion of runtime path of "/home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/lib/my_robot_pkg/lidar_listener" to ""
+[25.982s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/share/ament_index/resource_index/package_run_dependencies/my_robot_pkg
+[25.982s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/share/ament_index/resource_index/parent_prefix_path/my_robot_pkg
+[25.982s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/ament_prefix_path.sh
+[25.983s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/ament_prefix_path.dsv
+[25.983s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/path.sh
+[25.983s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/environment/path.dsv
+[25.983s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.bash
+[25.983s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.sh
+[25.983s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.zsh
+[25.984s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.dsv
+[25.984s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/package.dsv
+[25.984s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/share/ament_index/resource_index/packages/my_robot_pkg
+[25.984s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/cmake/my_robot_pkgConfig.cmake
+[25.984s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/cmake/my_robot_pkgConfig-version.cmake
+[25.985s] -- Installing: /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/install/my_robot_pkg/share/my_robot_pkg/package.xml
+[25.988s] Invoked command in '/home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yugnsh_lappy/RoboticsClub_PS/ros2_ws/build/my_robot_pkg

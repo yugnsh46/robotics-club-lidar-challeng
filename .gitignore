@@ -1,0 +1,15 @@
+# Temporary files
+*.tmp
+*~
+.DS_Store
+
+# Large video files (if > 100MB, use Git LFS or link instead)
+*.mp4
+*.avi
+*.mov
+
+# CoppeliaSim temp files
+*.ttm
+
+# Backup files
+*.bak
